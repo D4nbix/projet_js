@@ -28,26 +28,7 @@
     margin:auto;
   }
 
-  .titlee{
-    width: 70%;
-    height: 80%;
-    background-color: rgba(0, 0, 0, 0.68);
-    margin: auto;
-    z-index: 2;
-    position: relative;
-    bottom: 90%;
-    border-radius: 15px;
-    align-content: center;
-  }
-
-  .textee{
-    height: 50%;
-    color: #fff;
-    width: 70%;
-    margin: auto;
-    padding-top: 130px;
-  }
-  
+ 
   body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background: #fff;
@@ -116,35 +97,101 @@
   }
   
 
-  /* Courses */
-  .home-cards {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 20px;
-    margin-bottom: 40px;
+  /* Background */
+  .titlee{
+    width: 70%;
+    height: 80%;
+    background-color: rgba(0, 0, 0, 0.68);
+    margin: auto;
+    z-index: 2;
+    position: relative;
+    bottom: 90%;
+    border-radius: 15px;
+    align-content: center;
   }
-  
-  .home-cards img {
-    width: 100%;
-    margin-bottom: 20px;
+  .textee{
+    height: 50%;
+    width: 70%;
+    margin: auto;
+    padding-top: 130px;
   }
-  
-  .home-cards h3 {
-    margin-bottom: 5px;
+  h1{
+    font-family: 'Kaushan Script';
+    color: #F2F2F2;
   }
-  
-  .home-cards a {
-    display: inline-block;
-    padding-top: 10px;
-    color: #0067b8;
-    text-transform: uppercase;
-    font-weight: bold;
+  h3{
+    font-family: 'New Rocker';
+    color: #F2F2F2;
   }
-  
-  .home-cards a:hover i {
-    margin-left: 10px;
-  }
-  
+
+
+
+  /* Random Courses */
+
+nav .container-fluid{
+  width: 80%;
+  margin: auto;
+}
+
+
+button:hover{
+  transition: 0.5s;
+  width: 151px;
+  height: 51px;
+  background-color: #a86600;
+  color: #F2F2F2;
+  box-shadow: #F2F2F2 2px 2px 2px ;
+  border-radius: 10px;
+}
+.containercourses{
+  width:100%;
+  height: fit-content;
+  background-color: rgba(242, 242, 242, 0.44);
+  align-content: center;
+}
+.courses{
+  width: 80%;
+  height: 100%;
+  margin: auto;
+  background-color: #F2F2F2;
+  text-align: center;
+}
+.courses h1{
+  padding-top: 30px;
+  color: black;
+}
+.t{
+  color: #a86600;
+}
+.images{
+  margin: auto;
+  width: 80%;
+  height: 80%;
+  display: flex;
+  text-align: center;
+}
+.images img{
+  width:100% ;
+  height:75%;
+}
+.image{
+  width: 28%;
+  height: 70%;
+  margin: auto;
+  display: block;
+  justify-content: space-between;
+}
+
+.containercourses button{
+  border-radius: 10px;
+  margin-top: 10px;
+}
+.p{
+  margin-top: 10px;
+  color: grey;
+  font-family: " Abdoullah Ashgar EL-kharef";
+}
+
   /* Footer */
   .footer {
     background: #f2f2f2;
@@ -161,5 +208,3 @@
     align-items: center;
     justify-content: space-between;
   }
-  
- 

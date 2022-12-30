@@ -78,3 +78,19 @@ document.forms[0].onsubmit=(e)=>{
         e.preventDefault();
     }
 }
+
+
+let image=[];
+courses.forEach((e,i)=>{
+    image[i]=e.image;
+})
+let title=[];
+courses.forEach((e,i)=>{
+    title[i]=e.title;
+})
+let price=[];
+courses.forEach((e,i)=>{
+    price[i]=e.price;
+})
+let div=document.getElementById("images");
+
